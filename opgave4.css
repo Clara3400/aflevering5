@@ -1,0 +1,71 @@
+body{
+    background: #000000;
+}
+.navbar-brand{
+    color: whitesmoke;
+}
+.nav-link{
+    color:whitesmoke;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-toggler-icon{
+    color:whitesmoke;
+}
+.container-fluid{
+    color: whitesmoke;
+}
+.card-img{
+    opacity: 50%;
+}
+.card-body{
+    background: rgb(14, 14, 27);
+    color: whitesmoke;
+}
+
+.img-des{
+    display: none;
+}
+
+.col{
+    display: none;
+}
+.icon, i{
+    color: #333;
+}
+.btn{
+    border: none;
+}
+.d-block{
+    opacity: 50%;
+}
+.modal-content{
+    background: rgb(58, 58, 60);
+}
+
+
+@media screen and (min-width: 992px){
+
+    .img-fluid{
+        display: none;
+    }
+    .img-des{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .carousel{
+        display: none;
+    }
+    .col{
+        display: block;
+        display: flex;
+        justify-content: center;
+    
+    }
+}
